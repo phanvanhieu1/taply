@@ -8,7 +8,7 @@ const links = json_data['links']
 const page_title = json_data['config']['title'];
 const page_favicon = json_data['config']['favicon'];
 $(document).ready(function() {
-            console.log('READY !')
+            console.log('Hiếu 2k7!!!')
             draw_console_header();
             var container = document.getElementsByClassName('container')[0];
             var bio_story_html = '';
@@ -81,7 +81,7 @@ container.innerHTML+=`
             ${links_html}
         </div>
     </div>
-    `;});function copy(str){const el=document.createElement('textarea');el.value=str;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);show_modal(`Đã sao chép ${str} vào bộ nhớ tạm !`);console.log(`Copied ${str}`)}
+    `;});function copy(str){const el=document.createElement('textarea');el.value=str;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);show_modal(`Đã sao chép ${str} vào bộ nhớ tạm !`);}
 function show_modal(str){document.getElementById('description').innerText=str;document.getElementsByClassName("popup")[0].classList.add("active");}
 document.getElementById("dismiss-popup-btn").addEventListener("click",function(){document.getElementsByClassName("popup")[0].classList.remove("active");});function draw_console_header(){console.log(`                                            
 
