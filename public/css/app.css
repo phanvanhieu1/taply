@@ -78,7 +78,7 @@ body {
     border-radius: 30px;
     width: 120px;
     height: 120px;
-    top: -25px
+    top: -20px
 }
 
 #name {
@@ -89,7 +89,9 @@ body {
 .names {
     font-weight: 600;
     font-size: 26px;
-    margin: 0
+    margin: 0;
+    margin-top: 10px
+
 }
 
 #skills {
@@ -199,7 +201,9 @@ body {
 
 .link-content p {
     margin: 0;
-    font-weight: 600
+    font-weight: 600;
+    margin-left: 18px;
+    
 }
 
 .link-content span {
@@ -215,11 +219,13 @@ body {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     transition: all 250ms;
-    cursor: pointer
+    cursor: pointer;
+    margin-left: 18px;
+    color: orange;
 }
 
 .link-content span:hover {
-    color: #7c7e83
+    color: #778180
 }
 
 .link-btn-chill {
